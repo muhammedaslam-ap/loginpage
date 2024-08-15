@@ -1,0 +1,22 @@
+
+
+<div class="text-center center-div" id="Login">
+    <div class="container w-25 py-5">
+        <div class="title">
+            <h2 class="font-weight-bold">Please Login..! </h2>
+            <h4 class="text-danger">{{msg}}</h4>
+            <h4 class="text-danger">{{msg2}}</h4>
+            <span>Log in for the existing user</span>
+            <!-- Display the message if it exists -->
+        </div>
+        <form action="/verify" method="post" class="pt-3">
+            <div class="form-group">
+                <input type="email" class="mt-4 form-control" placeholder="Email" name="email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="mt-2 form-control" name="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn mt-3 btn-sm ">Submit</button>
+        </form>
+    </div>
+</div>

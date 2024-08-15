@@ -1,0 +1,84 @@
+
+.center-div{
+    padding-top:10%;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    background-image: url('/assets/bg2.jpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  
+}
+form{
+    padding: 0 1em;
+}
+#Login h2{
+    font-size: 2em;
+    color: rgb(252, 248, 248);
+}
+#Login span{
+    font-size: 12px;
+    font-style: bold;
+    color: rgb(216, 213, 213);
+}
+input{
+    background-color: transparent;
+    border-style: solid;
+    border-color: #00FFFF;
+    border-radius: 7px;
+    color: rgb(75, 74, 73);
+    font-size: medium;
+    
+  
+}
+form{
+    margin-right: 0;
+}
+input[type="email"] {
+    font-size: 12px;  /* Default font size */
+    padding: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    margin-left: 20px;
+
+
+}
+input[type="password"]{
+    font-size: 12px;  /* Default font size */
+    padding: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+input::placeholder {
+    font-size: 10px;
+    color: #b4afaf;     
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+}
+.btn{
+    border-radius: 50px;
+    border-style: solid;
+    border-color:#00FFFF;
+    font-size: 10px;
+    color:rgb(216, 213, 213) ;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.btn:hover{
+   background-color: #00FFFF;
+}
+.container{
+    border-radius: 10px;
+ backdrop-filter: blur(10px);
+ border-style: solid;
+ border-color: #00FFFF;
+}
+h4{
+    font-size: small;
+}
